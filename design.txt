@@ -1,0 +1,21 @@
+Full Stack Engineer Challenge
+
+Usually I work mostly with AngularJS against a Java backend, but I figured that
+regardless of my application I would make it a learning experience, and I have
+been eager to do something with a more modern framework, so I made my front-end
+stack VueJS with Vuex for state handling, and Axios for API calls. For the
+backend I picked NodeJS, with Express and Mongoose against a remote Mongo
+database in order to minimize the amount of time I would have to spend building
+that.
+
+As far as assumptions go, I assumed that all employees created in the system
+would be non-admin users, and that reviews and feedback would only be carried
+out on those users.
+
+I didn't have enough time to finish half of the views, implement any real security,
+proper session handling, delete confirmation, and there is also no edit
+functionality for either employees or reviews. The styling is also only about
+halfway there. ObjectIDs would probably have been better than strings for
+the DB schemas, but again I didn't have enough time. These are things I would
+change if I was doing a real project and wasn't doing this beside my normal work
+tasks.
